@@ -27,9 +27,24 @@ AgriMall is a Farm-to-Market platform that enables farmers to showcase their pro
 - ✅ SDG 9: Industry, Innovation & Infrastructure
 
 ## 📁 Project Structure
-agrimall-frontend/ ├──src/ │├── components/     # React components │├── firebase.js    # Firebase configuration │└── App.jsx        # Main app component ├──public/            # Static files └──README.md          # This file
-
-```
+agrimall-frontend/
+├── .gitignore
+├── .env
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── index.html
+└── src/
+    ├── firebase.js
+    ├── main.jsx
+    ├── App.jsx
+    ├── index.css
+    └── components/
+        ├── Auth.jsx
+        ├── FarmerDashboard.jsx
+        ├── BuyerDashboard.jsx
+        ├── Navbar.jsx
+        └── ProductCard.jsx
 
 ## 🚀 Getting Started
 
